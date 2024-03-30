@@ -1,0 +1,30 @@
+.platform {
+  width: auto;
+  height: auto;
+  margin-right: 10px; /* Add margin between icons */
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 120px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.svg {
+  width: 30px;
+  height: 30px;
+}
+
+.platform-link {
+  color: white; /* Change icon color */
+  font-size: 24px; /* Adjust icon size */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.platform-link:hover .svg {
+  color: #0a8eaf; /* Change icon color on hover */
+}

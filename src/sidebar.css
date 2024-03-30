@@ -1,0 +1,42 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 450px; /* Adjust the width as needed */
+  background-color: #040b14; /* Sidebar background color */
+  color: #fff; /* Text color */
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  margin-top: 10px;
+  padding: 20px; /* Adjust padding as needed */
+  text-align: center; /* Center align profile content */
+}
+
+.profile img {
+  width: 100px; /* Adjust image width */
+  height: 100px; /* Adjust image height */
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 10px; /* Add space between image and name */
+}
+
+.profile h3 {
+  margin: 0; /* Remove default margin */
+}
+
+.profile p {
+  margin: 5px 0; /* Adjust margin as needed */
+  font-size: 14px; /* Adjust font size */
+}
+
+.sociallinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: center;
+}

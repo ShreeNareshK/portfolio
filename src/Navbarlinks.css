@@ -1,0 +1,31 @@
+.navbar-links {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-left: 50px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.svg {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+.link-name {
+  color: white; /* Change icon color */
+  font-size: 24px; /* Adjust icon size */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.link-name:hover {
+  color: #0ab0da; /* Change icon color on hover */
+}
