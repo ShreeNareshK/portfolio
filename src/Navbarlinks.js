@@ -7,6 +7,7 @@ import {
   HiMiniInboxStack,
   TfiEmail,
 } from "react-icons/io5";
+
 import "./Navbarlinks.css";
 
 function Navbarlinks() {
@@ -24,10 +25,12 @@ function Navbarlinks() {
 
 function Navbarlink({ Icon, link, name }) {
   return (
-    <a className="navbar-links" href={link}>
-      <Icon className="svg" />
-      <span className="link-name">{name}</span>
-    </a>
+    <div className="cp">
+      <a className="navbar-links" href={link}>
+        <Icon className="svg" />
+        <span className="link-name">{name}</span>
+      </a>
+    </div>
   );
 }
 

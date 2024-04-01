@@ -7,6 +7,7 @@
   margin-top: 20px;
   text-decoration: none;
 }
+
 .links {
   display: flex;
   flex-direction: column;
@@ -27,5 +28,5 @@
   transition: color 0.3s;
 }
 .link-name:hover {
-  color: #0ab0da; /* Change icon color on hover */
+  color: #0ab0da;
 }
