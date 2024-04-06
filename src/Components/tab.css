@@ -1,0 +1,17 @@
+.content {
+  width: fit-content;
+  height: fit-content;
+  background-color: black;
+  color: aliceblue;
+  padding: 5px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.contents {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}

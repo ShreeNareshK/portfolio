@@ -1,0 +1,10 @@
+.active {
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  background-color: aqua;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Adjust shadow values as needed */
+}
